@@ -19,9 +19,16 @@ public class PideEscribirNombreEdad {
 
 		System.out.println("Tu nombre es "+ nombre+ " y tienes " + edad+ " años.");
 
+
+
+		saludar(nombre);
 	}
 
-
+	// Nuevo método para saludar al usuario
+	public static void saludar(String nombre) {
+		System.out.println("¡Hola, " + nombre + "! Bienvenido al programa.");
+	}
 }
+
 
 
