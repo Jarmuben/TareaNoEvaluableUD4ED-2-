@@ -9,19 +9,19 @@ public class PideEscribirNombreEdad {
 		Scanner sc = new Scanner (System.in);
 		// Pongo la linea de arriba siempre que solicito datos de entrada al usuario y poder ller nextInt, nextLine, etc.
 
-		System.out.println ("Escribe el nombre :");
+		System.out.println ("Escribe tu apellido :");
 
-		String nombre = sc.nextLine();
+		String apellido = sc.nextLine();
 
 		System.out.println ("Escribe la edad :");
 
 		int edad= sc.nextInt ();
 
-		System.out.println("Tu nombre es "+ nombre+ " y tienes " + edad+ " años.");
+		System.out.println("Tu apellido es "+ apellido+ " y tienes " + edad+ " años.");
 
 
 
-		saludar(nombre);
+		saludar(apellido);
 	}
 
 	// Nuevo método para saludar al usuario
